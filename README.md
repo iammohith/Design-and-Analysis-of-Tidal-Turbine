@@ -10,50 +10,50 @@ Computational Fluid Dynamics (CFD) simulations are used to analyze various facto
 
 Additionally, **Static Structural Analysis** checks the stresses and forces on the blade due to pressure at higher depths, and **Modal Analysis** is performed to ensure the turbine avoids resonance by evaluating frequencies, vibrations, and noise levels. 
 
-## Table of Contents
+## Contents
 
-- Certificate………………………………………………………………………………. i  
-- Declaration…………………………………………………………………………….. ii  
-- Abstract………………………………………………………………………………... iii  
-- Acknowledgement……………………………………………………………………... iv  
-- List of Figures …………………………………………………………………………. v  
-- List of Tables………………………………………………………………………..... vi  
-- Chapter 1: Introduction……………………………………………………..1  
-  - 1.1 Ocean Energy…………………………………………………………………….1  
-  - 1.1.1 Global Potential……..……………………………………………………..1  
-  - 1.2 Forms of Ocean Energy……..…………...……………………………….……...2  
-  - 1.3 Tide……………………………………………………………………………....2  
-    - 1.3.1 Characteristics……………………………………………………………..2  
-    - 1.3.2 Definitions…………………………………………………………………3  
-  - 1.4 Methods to Extract Tidal Energy……………………………………………….4  
-    - 1.4.1 Tidal Barrages……………………………………………………………..5  
-    - 1.4.2 Tidal Stream Energy……………………………………………………….5  
-- Chapter 2: Literature Review………………………….……..……………..7  
-  - 2.1 Literature Survey……………………………………………………………..….7  
-  - 2.2 Motivation for the Present Work……………………………………………….12  
-- Chapter 3: Objectives and Methodology…………………………..…..…..13  
-  - 3.1 Objectives………………………………………………………………………13  
-  - 3.2 Methodology……………………………………………………………………13  
-    - 3.2.1 Betz Limit Theory………………………………………………………...13  
-    - 3.2.2 Blade Element Momentum Theory………………………………………14  
-    - 3.2.3 Static Structural Analysis………………………………………………...15  
-    - 3.2.4 Cantilever Beam………………………………………………………….16  
-    - 3.2.5 Finite Element Analysis…………………………………………………..16  
-    - 3.2.6 Modal Analysis…………………………………………………………...16  
-    - 3.2.7 Computational Fluid Dynamics…………………………………………..17  
-    - 3.2.8 Finite Volume Method…………….……………………………………...17  
-    - 3.2.9 Shear Stress Transport……..……………………………………………..18  
-- Chapter 4: Numerical Analysis………………………….……..………….19  
-  - 4.1 Blade Element Momentum Analysis…………………………………………...19  
-  - 4.2 Static Structural Analysis………………………………………………………20  
-  - 4.3 Modal Analysis…………………………………………………………………21  
-  - 4.4 Flow Analysis…………………………………………………………………..22  
-- Chapter 5: Results and Discussions………………………….……..…...24  
-  - 5.1 Static Structural Analysis Results……………………………………………..24  
-  - 5.2 Modal Analysis Results………………………………………………………..26  
-  - 5.3 Flow Analysis Results……………………………………………….………...28  
-- Chapter 6: Conclusions…………………………………………....…….47  
-- References………………………………………………………..……….48  
+1. **Certificate**
+2. **Declaration**
+3. **Abstract**
+4. **Acknowledgement**
+5. **List of Figures**
+6. **List of Tables**
+7. **Chapter 1: Introduction**
+   - 1.1 Ocean Energy
+      - 1.1.1 Global Potential
+   - 1.2 Forms of Ocean Energy
+   - 1.3 Tide
+     - 1.3.1 Characteristics
+     - 1.3.2 Definitions
+   - 1.4 Methods to Extract Tidal Energy
+     - 1.4.1 Tidal Barrages
+     - 1.4.2 Tidal Stream Energy
+8. **Chapter 2: Literature Review**
+   - 2.1 Literature Survey
+   - 2.2 Motivation for Present Work
+9. **Chapter 3: Objectives and Methodology**
+   - 3.1 Objectives
+   - 3.2 Methodology
+     - 3.2.1 Betz Limit Theory
+     - 3.2.2 Blade Element Momentum Theory
+     - 3.2.3 Static Structural Analysis
+     - 3.2.4 Cantilever Beam
+     - 3.2.5 Finite Element Analysis
+     - 3.2.6 Modal Analysis
+     - 3.2.7 Computational Fluid Dynamics
+     - 3.2.8 Finite Volume Method
+     - 3.2.9 Shear Stress Transport
+10. **Chapter 4: Numerical Analysis**
+    - 4.1 Blade Element Momentum Analysis
+    - 4.2 Static Structural Analysis
+    - 4.3 Modal Analysis
+    - 4.4 Flow Analysis
+11. **Chapter 5: Results and Discussion**
+    - 5.1 Static Structural Analysis Results
+    - 5.2 Modal Analysis Results
+    - 5.3 Flow Analysis Results
+12. **Chapter 6: Conclusion**
+13. **References**
 
 ## Conclusion
 
@@ -63,3 +63,4 @@ Using SOLIDWORKS for modeling and ANSYS CFX V11 SP1 for analysis, a performance 
 
 The flow phenomena around the turbine were studied, revealing that as TSR increases, negative pressure on the suction side also increases, leading to decreased output beyond the optimal TSR. The model displayed negligible deformation in the Static Structural Analysis, indicating that the stresses remained below the tensile yield strength. The frequency analysis confirmed no resonance issues within the operational range. Overall, the CFX analysis highlighted maximum torque and thrust force at the optimal TSR of 5.
 
+## References
